@@ -246,7 +246,7 @@ def _get_form_url(request, username=None, protocol='https'):
         http_host = settings.TEST_HTTP_HOST
         username = settings.TEST_USERNAME
     else:
-        http_host = request.META.get('HTTP_HOST', 'ona.io')
+        http_host = request.META.get('HTTP_HOST', 'survey.kedco.ng')
 
     url = '%s://%s' % (protocol, http_host)
 

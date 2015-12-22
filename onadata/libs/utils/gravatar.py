@@ -1,7 +1,7 @@
 import hashlib
 import urllib
 
-DEFAULT_GRAVATAR = "https://ona.io/static/images/default_avatar.png"
+DEFAULT_GRAVATAR = "https://survey.kedco.ng/static/images/default_avatar.png"
 GRAVATAR_ENDPOINT = "https://secure.gravatar.com/avatar/"
 GRAVATAR_SIZE = str(60)
 
